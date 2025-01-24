@@ -3,8 +3,7 @@ python-dotenv
 langchain_community
 pypdf
 pymupdf
-PyAudio‑0.2.11‑cpXX‑cpXX‑win_amd64.whl
-langchain-text-splitters
+git+https://people.csail.mit.edu/hubert/git/pyaudio.gitlangchain-text-splitters
 lxml
 langchain-openai
 langchain_chroma
