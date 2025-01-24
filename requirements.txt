@@ -4,6 +4,7 @@ langchain_community
 pypdf
 pymupdf
 git+https://people.csail.mit.edu/hubert/git/pyaudio.gitlangchain-text-splitters
+uv
 lxml
 langchain-openai
 langchain_chroma
