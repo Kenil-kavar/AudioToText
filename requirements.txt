@@ -8,5 +8,6 @@ lxml
 langchain-openai
 langchain_chroma
 streamlit
+--upgrade pip
 langchain_groq
 langchain_huggingface
