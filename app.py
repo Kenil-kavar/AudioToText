@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Replace with your GROQ API key
+st.secrets["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")  # Replace with your GROQ API key
 CHUNK = 4096  # Increased chunk size for better performance
 FORMAT = pyaudio.paInt24  # 24-bit audio format for higher quality
 CHANNELS = 2  # Stereo audio for richer sound
